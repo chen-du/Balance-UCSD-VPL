@@ -6,6 +6,12 @@ This dataset includes data from 21 healthy adults. During the collection phase, 
 
 The video was collected by two calibrated RGB cameras using a resolution of 640 x 480 pixels at 30 fps, while the center of pressure was recorded at 60 Hz using a force plate. Please refer to the following publications for more details.
 
+## File format
+BodyLandMark.npy contains the 3D body landmarks in meter (m); the shape of data is 11028 (clips) * 120 (frames) * 25 (joints) * 3 (dimensions)
+
+CenterOfPressure.npy contains the corresponding center of pressure measurements (x, y) in centimeter (cm) for each video clips; the shape of data is 11028 (clips) * 120 (frames) * 2 (dimensions)
+
+Split.npy contains the data split for each clip in the mixed-subject evaluation, 0 for training set, 1 for validation set, 2 for testing set.
 
 ## Citation
 
