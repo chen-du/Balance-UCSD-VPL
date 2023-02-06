@@ -1,6 +1,6 @@
 # Balance-UCSD-VPL
  
-This dataset contains 11028 3D body landmark sequences and corresponding center of pressure measurements for balance-related movement video clips. Each video clip includes 120 frames of 3D body landmarks and their affiliated center of pressure position.
+This dataset contains 11,028 3D body landmark sequences and corresponding center of pressure measurements for balance-related movement video clips. Each video clip includes 120 frames of 3D body landmarks and their affiliated center of pressure position.
 
 This dataset includes data from 21 healthy adults. During the collection phase, each subject stood on the force plate with no shoes using 1) feet side-by-side and 2) feet-in-tandem (i.e., heel-to-toe) postures. We instructed subjects to perform random movements, e.g., from rigid standing to body swaying, involving the trunk, arms, hands, or bending knees. The only specified requirement was not to move the feet; we provided no specific instructions about the action patterns.
 
